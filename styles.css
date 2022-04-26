@@ -41,7 +41,7 @@ main {
   width: 270px;
 }
 #sec {
-  background: rgb(233, 238, 239);
+  background: #d4f1f4;
 }
 .button {
   text-decoration: none;
@@ -57,4 +57,21 @@ main {
 .button:hover {
   background: #fff;
   color: #222;
+}
+.card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.card:hover {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+#sec2 {
+  background: #d4f1f4;
+  width: 100%;
+  height: 300px;
 }
