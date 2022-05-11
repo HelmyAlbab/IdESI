@@ -26,7 +26,7 @@ body {
   font-weight: 500;
   font-size: 1.2rem;
   border-radius: 10px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   transition: 0.3s ease-in-out;
 }
 #navbarNav .navbar-nav .nav-link:hover {
@@ -36,13 +36,38 @@ body {
 main {
   margin-top: 5.5rem;
 }
-#image {
-  height: 270px;
-  width: 270px;
-}
-#sec {
+.section {
+  padding-top: 4rem;
   background: #d4f1f4;
 }
+#image {
+  height: 300px;
+  width: 300px;
+}
+
+.offcanvas-body ul {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.offcanvas-body ul li {
+  list-style: none;
+  margin: 10px;
+}
+.offcanvas-body ul li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 7px 15px;
+  transition: 0.3s ease-in-out;
+}
+.offcanvas-body ul li a:hover {
+  background: #222;
+  color: #fff;
+}
+
 .button {
   text-decoration: none;
   padding: 5px 8px;
@@ -72,5 +97,29 @@ main {
 }
 #sec2 {
   background: #d4f1f4;
-  width: 100%;
+  padding: 5rem 0;
+}
+.explain {
+  font-size: 21px;
+}
+@media screen and (max-width: 992px) {
+  .explain {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .g-3 {
+    flex-direction: column;
+  }
+  .col-sm-4 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #sec {
+    flex-direction: column;
+  }
+  #sec2 {
+    flex-direction: column;
+  }
 }
