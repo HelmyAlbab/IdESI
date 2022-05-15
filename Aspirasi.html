@@ -12,7 +12,7 @@
   <body>
     <nav class="navbar navbar-expand-lg fixed-top mt-4" id="navbar">
       <div class="container">
-        <a class="navbar-brand" id="nav-brand" href="#">Navbar</a>
+        <a class="navbar-brand" id="nav-brand" href="#">ADVOKESMA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav gap-2">
             <li class="nav-item">
-              <a href="#" class="nav-link">Sign In</a>
+              <a href="#" class="nav-link border border-2 border-dark">Let's Talk</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Sign Up</a>
+              <a href="#" class="nav-link"><img width="50" src="kontak.png" alt="kontak"></a>
             </li>
           </ul>
         </div>
@@ -78,59 +78,68 @@
 
     <main>
       <div class="row" id="sec">
-        <div class="col text-center py-4 px-5">
-          <h1 class="text-center">Aspirasi Mahasiswa</h1>
-          <p class="mx-5">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem iusto eaque officia atque quis, odit doloribus, sunt impedit, totam sequi rem voluptates dolor. Architecto nostrum laudantium sequi alias pariatur quod.
-          </p>
+        <div class="col py-4 px-5 d-flex justify-content-center">
+          <img src="Inbox.png" alt="inbox" id="inbox-Aspirasi">
+          <h1 class="text-center">Kotak Suara Dari Advokesma</h1>
         </div>
       </div>
       <div class="" id="sec2">
-        <h2 class="text-center py-4">Daftar Kelompok Aspirasi</h2>
         <div class="row g-3">
-          <div class="col-sm-6">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Sosial</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, illo?</p>
+          <div class="col-sm-6 justify-content-center">
+            <form class="d-flex justify-content-center">
+              <div>
+                <h3>Kelompok Aspirasi</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Sosial
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Ekonomi
+              </label>
               </div>
-              <div class="card-footer bg-transparent border-top-0 mb-3">
-                <a href="#" class="button">Read More</a>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Akademik
+                </label>
               </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Aspirasi Pribadi
+                </label>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Ekonomi</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="card-footer bg-transparent border-top-0 mb-3">
-                <a href="#" class="button">Read More</a>
-              </div>
-            </div>
+          </form>
           </div>
           <div class="col-sm-6">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Aspirasi Pribadi</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
-              </div>
-              <div class="card-footer bg-transparent border-top-0 mb-3">
-                <a href="#" class="button">Read More</a>
-              </div>
-            </div>
+            <form class="isu"> 
+              <h3>Isu Yang Dilaporkan</h3>
+              <input type="text" id="Isu" name="Isu"><br>
+        </form>
           </div>
           <div class="col-sm-6">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Akademik</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form class="data d-flex justify-content-center"> 
+              <div>
+              <h3>Data Diri</h3>
+              <label for="Isu">Nama</label><br>
+              <input type="text" id="Isu" name="Isu"><br>
+              <label for="Isu">NIM</label><br>
+              <input type="text" id="Isu" name="Isu"><br>
+              <label for="Isu">Program Studi</label><br>
+              <input type="text" id="Isu" name="Isu"><br>
               </div>
-              <div class="card-footer bg-transparent border-top-0 mb-3">
-                <a href="#" class="button">Read More</a>
-              </div>
-            </div>
+        </form>
+          </div>  
+          <div class="col-sm-6">
+            <form class="harapan"> 
+              <h3>Isi Opini Harapan Anda</h3>
+              <input type="text" id="Isu" name="Isu"><br>
+        </form>
           </div>
         </div>
       
